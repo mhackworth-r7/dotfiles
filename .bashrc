@@ -1,18 +1,18 @@
 # .bashrc
 
-# source global definitions
 if [ -f /etc/bashrc ]; then
-    . /etc/bashrc
+        . /etc/bashrc
 fi
 
-# set up command history.
-HISTSIZE=100000
-HISTFILESIZE=100000
-# make shells write to history immediately instead of on exit.
+# history stuff
+export HISTCONTROL=ignoreboth
+export HISTFILESIZE=10000
+export HISTTIMEFORMAT='%F %T '
+export HISTIGNORE='ls:history'
+export HISTSIZE=10000
 shopt -s histappend
-PROMPT_COMMAND='history -a'
+export PROMPT_COMMAND='history -a'
 
 # aliases
 alias serve_this_dir='python -m SimpleHTTPServer'
-
-# functions
+alias reload_bashrc='source ~/.bashrc'
