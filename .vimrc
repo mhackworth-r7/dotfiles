@@ -1,1 +1,1 @@
-:colorscheme ron
+colorscheme ron
