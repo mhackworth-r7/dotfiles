@@ -15,5 +15,3 @@ export PROMPT_COMMAND='history -a'
 
 # aliases
 alias serve_this_dir='python -m SimpleHTTPServer'
-alias reload_bashrc='source ~/.bashrc'
-alias sublime='/opt/Sublime_Text_2/sublime_text'
