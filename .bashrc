@@ -1,7 +1,7 @@
 # .bashrc
 
 if [ -f /etc/bashrc ]; then
-        . /etc/bashrc
+    . /etc/bashrc
 fi
 
 # history stuff
@@ -15,3 +15,5 @@ export PROMPT_COMMAND='history -a'
 
 # aliases
 alias serve_this_dir='python -m SimpleHTTPServer'
+alias extract='tar -zxvf'
+alias archive='tar -zcvf'
