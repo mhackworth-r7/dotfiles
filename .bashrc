@@ -17,3 +17,5 @@ export PROMPT_COMMAND='history -a'
 alias serve_this_dir='python -m SimpleHTTPServer'
 alias extract='tar -zxvf'
 alias archive='tar -zcvf'
+# tar -jxvf (for tar.bz2)
+# unzip (for .zip)
